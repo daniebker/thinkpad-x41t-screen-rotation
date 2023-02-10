@@ -1,0 +1,21 @@
+mode=`cat /usr/bin/rotationmode`
+if test 0 = $mode
+then
+echo 1 > /usr/bin/rotationmode
+rotateright
+fi
+if test 1 = $mode
+then
+echo 2 > /usr/bin/rotationmode
+rotateinverted
+fi
+if test 2 = $mode
+then
+echo 3 > /usr/bin/rotationmode
+rotateleft
+fi
+if test 3 = $mode
+then
+echo 0 > /usr/bin/rotationmode
+rotatenormal
+fi

@@ -1,0 +1,3 @@
+xrandr -o inverted
+xsetwacom set "Serial Wacom Tablet WACf004 stylus" Rotate half
+sudo setkeycodes  0x71 108 0x6f 103 0x6e 106 0x6d 105

@@ -1,0 +1,3 @@
+xrandr -o left
+xsetwacom set "Serial Wacom Tablet WACf004 stylus" Rotate ccw
+sudo setkeycodes  0x71 106 0x6f 105 0x6e 103 0x6d 108
